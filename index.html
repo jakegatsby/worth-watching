@@ -11,7 +11,7 @@
     <v-app>
       <v-main>
         <v-container>
-          Hi!
+          {{ reviews }}
         </v-container>
       </v-main>
     </v-app>
@@ -26,15 +26,18 @@
       vuetify: new Vuetify(),
       data() {
         return {
+          reviews: []
         }
       },
-      computed: {
-        }
-      },
-      methods: {
-        }
-      },
+      computed: {},
+      methods: {},
       mounted() {
+      axios
+        .get("/reviews.json")
+        .then(response => {
+          this.reviews = response.data;
+        });
+
       },
     })
   </script>

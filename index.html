@@ -11,7 +11,13 @@
     <v-app>
       <v-main>
         <v-container>
-          {{ reviews }}
+          <template v-for="(shows, category) in reviews">
+            <v-card v-for="show in shows" elevation="2" class="ma-4">
+              <v-card-title><a href="{{ show.rt }}">{{ show.title }}</a></v-card-title>
+              <v-card-subtitle>{{ show.cast.join(", ") }}</v-card-subtitle>
+              <v-card-text>{{ show.review }}</v-card-text>
+            </v-card>
+          </template>
         </v-container>
       </v-main>
     </v-app>

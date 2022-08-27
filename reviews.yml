@@ -1,8 +1,22 @@
 "movies/romantic-comedy":
-- name: Midnight In Paris
+- title: Midnight In Paris
   must-see: true
   rt: https://www.rottentomatoes.com/m/midnight_in_paris
-  cast: Owen Wilson, Rachel McAdams
+  cast:
+  - Owen Wilson
+  - Rachel McAdams
   review: >-
     Fun, original, and clever Woody Allen flick.  Very
     re-watchable.
+
+"movies/science-fiction":
+- title: Donny Darko
+  must-see: false
+  rt: https://www.rottentomatoes.com/m/donnie_darko
+  cast:
+  - Jake Gyllenhaal
+  - Drew Barrymore
+  review: >-
+    Absolute cult-classic!  Almost a "must-watch", but it's maybe not
+    for everyone.  Very "trippy", with an amazing soundtrack
+    by Tears For Fears.

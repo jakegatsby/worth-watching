@@ -5,17 +5,35 @@
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <div id="app">
     <v-app>
       <v-main>
         <v-container>
+          <div class="text-h3 text-center grey--text text--darken-3">Worth Watching</div>
+          <div class="text-h5 text-center grey--text text--darken-2">For when you've completely run out of things to watch</div>
           <template v-for="(shows, category) in reviews">
-            <v-card v-for="show in shows" elevation="2" class="ma-4">
-              <v-card-title><a :href="show.rt">{{ show.title }}</a></v-card-title>
-              <v-card-subtitle>{{ show.cast.join(", ") }}</v-card-subtitle>
-              <v-card-text>{{ show.review }}</v-card-text>
+            <v-card v-for="show in shows" elevation="6" shaped class="ma-4">
+              <v-row no-gutters>
+                <v-col cols="4">
+                  <v-img :src="show.img" class="mt-4 ml-4" max-width="150"></v-img>
+                </v-col>
+                <v-col>
+                  <v-card-title class="mt-4"><a :href="show.rt">{{ show.title }}</a></v-card-title>
+                  <v-card-subtitle>{{ show.date }}<br />{{ show.cast.join(", ") }}</v-card-subtitle>
+                </v-col>
+              </v-row>
+              <v-row no-gutters>
+                <v-col>
+                <v-card-text class="grey--text text--darken-2">{{ show.review }}</v-card-text>
+                </v-col>
+              </v-row>
             </v-card>
           </template>
         </v-container>

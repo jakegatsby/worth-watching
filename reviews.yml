@@ -1,7 +1,44 @@
-"movies/romantic-comedy":
+"movies: action":
+- title: Collateral
+  date: 2004
+  cast:
+  - Tom Cruise
+  - Jamie Foxx
+  rt: https://www.rottentomatoes.com/m/collateral
+
+
+- title: Everest
+  date: 2015
+  rt: https://www.rottentomatoes.com/m/everest_2015
+
+
+- title: Fury
+  date: 2014
+  rt: https://www.rottentomatoes.com/m/fury_2015
+
+
+"movies: comedy":
+- title: Jojo Rabbit
+  date: 2019
+  must-watch: false
+  rt: https://www.rottentomatoes.com/m/jojo_rabbit
+
+- title: Big Trouble in Little China
+
+- title: Bottle Rocket
+
+
+- title: Ferris Bueller's Day Off
+
+
+- title: Game Night
+  date: 2018
+  rt: https://www.rottentomatoes.com/m/game_night_2018
+
+"movies: romantic comedy":
 - title: Midnight In Paris
   date: 2011
-  must-see: true
+  must-watch: true
   rt: https://www.rottentomatoes.com/m/midnight_in_paris
   img: img/midnight-in-paris.jpg
   cast:
@@ -11,10 +48,37 @@
     Fun, original, and clever Woody Allen flick.  Very
     re-watchable.
 
-"movies/sci-fi":
+
+"movies: drama":
+- title: A River Runs Through It
+  date: 1992
+  must-watch: false
+  rt: https://www.rottentomatoes.com/m/river_runs_through_it
+
+- title: Gangs of New York
+
+- title: A Star Is Born
+  date: 2018
+  rt: https://www.rottentomatoes.com/m/a_star_is_born_2018
+  must-watch: false
+
+- title: Birdman or (The Unexpected Virtue of Ignorance)
+
+- title: Black Swan
+
+
+
+"movies: documentaries":
+- title: Bobby Bischer Against The World
+  rt: https://www.rottentomatoes.com/m/bobby_fischer_against_the_world
+
+
+
+
+"movies: sci-fi & fantasy":
 - title: Donnie Darko
   date: 2001
-  must-see: false
+  must-watch: false
   rt: https://www.rottentomatoes.com/m/donnie_darko
   img: img/donnie-darko.jpg
   cast:
@@ -25,3 +89,88 @@
     for everyone.  Very "trippy", with an amazing soundtrack
     by Tears For Fears.  Might not have aged all that well, definitely
     a nostalgia factor with this one.
+
+- title: Arrival
+  date: 2016
+  must-watch: true
+  rt: https://www.rottentomatoes.com/m/arrival_2016
+
+
+- title: Blade Runner 2049
+  must-watch: true
+
+
+- title: Coherence
+  date: 2013
+  rt: https://www.rottentomatoes.com/m/coherence_2013
+
+
+- title: Princess Bride
+
+
+- title: Doctor Sleep
+
+- title: Dredd
+
+- title: Edge of Tomorrow
+
+
+- title: Equilibrium
+
+
+
+"movies: westerns":
+- title: "True Grit"
+  date: 2010
+  must-watch: true
+  rt: https://www.rottentomatoes.com/m/true_grit_2010
+
+- title: Tombstone
+  date: 1993
+  rt: https://www.rottentomatoes.com/m/tombstone
+
+
+- title: Django Unchained
+  date: 2012
+  rt: https://www.rottentomatoes.com/m/django_unchained_2012
+
+
+
+# ------------------------------------------------------------------------ #
+# ---------------------------------- TV ---------------------------------- #
+# ------------------------------------------------------------------------ #
+
+
+
+
+
+"tv: action":
+- title: "Formula 1: Drive to Survive"
+
+
+"tv: comedy":
+- title: Derry Girls
+  rt: https://www.rottentomatoes.com/tv/derry_girls
+
+- title: Cheers
+
+- title: M*A*S*H
+
+"tv: drama":
+- title: Better Call Saul
+
+- title: Breaking Bad
+
+- title: Bloodline
+
+- title: Concrete Cowboy
+  date: 2020
+  rt: https://www.rottentomatoes.com/m/concrete_cowboy
+
+
+"tv: sci-fi & fantasy":
+- title: Black Mirror
+
+- title: Wolf Like Me
+  date: 2022
+  rt: https://www.rottentomatoes.com/tv/wolf_like_me

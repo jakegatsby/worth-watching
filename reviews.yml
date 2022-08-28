@@ -28,12 +28,19 @@
 - title: Bottle Rocket
 
 
+- title: Fundamentals Of Caring
+  date: 2016
+  rt: https://www.rottentomatoes.com/m/the_fundamentals_of_caring
+
 - title: Ferris Bueller's Day Off
 
 
 - title: Game Night
   date: 2018
   rt: https://www.rottentomatoes.com/m/game_night_2018
+
+- title: Groundhog Day
+
 
 "movies: romantic comedy":
 - title: Midnight In Paris
@@ -47,6 +54,15 @@
   review: >-
     Fun, original, and clever Woody Allen flick.  Very
     re-watchable.
+
+
+
+"movies: documentaries":
+- title: Bobby Bischer Against The World
+  rt: https://www.rottentomatoes.com/m/bobby_fischer_against_the_world
+
+
+- title: Icarus
 
 
 "movies: drama":
@@ -67,11 +83,15 @@
 - title: Black Swan
 
 
+- title: All Is Lost
+  date: 2013
+  rt: https://www.rottentomatoes.com/m/all_is_lost_2013
 
-"movies: documentaries":
-- title: Bobby Bischer Against The World
-  rt: https://www.rottentomatoes.com/m/bobby_fischer_against_the_world
+- title: Green Book
 
+- title: Concrete Cowboy
+  date: 2020
+  rt: https://www.rottentomatoes.com/m/concrete_cowboy
 
 
 
@@ -96,9 +116,14 @@
   rt: https://www.rottentomatoes.com/m/arrival_2016
 
 
+- title: Moon
+  date: 2009
+  rt: https://www.rottentomatoes.com/m/moon
+
 - title: Blade Runner 2049
   must-watch: true
 
+- title: Interstellar
 
 - title: Coherence
   date: 2013
@@ -107,6 +132,7 @@
 
 - title: Princess Bride
 
+- title: Life
 
 - title: Doctor Sleep
 
@@ -147,6 +173,8 @@
 "tv: action":
 - title: "Formula 1: Drive to Survive"
 
+- title: Reacher
+
 
 "tv: comedy":
 - title: Derry Girls
@@ -156,6 +184,12 @@
 
 - title: M*A*S*H
 
+- title: I Think You Should Leave
+
+- title: Kim's Convenience
+
+
+
 "tv: drama":
 - title: Better Call Saul
 
@@ -163,10 +197,21 @@
 
 - title: Bloodline
 
-- title: Concrete Cowboy
-  date: 2020
-  rt: https://www.rottentomatoes.com/m/concrete_cowboy
+- title: Mindhunter
+  date: 2017
+  rt: https://www.rottentomatoes.com/tv/mindhunter
 
+- title: Orange Is the New Black
+
+
+
+- title: Manhunt
+  date: 2017
+  rt: https://www.rottentomatoes.com/tv/manhunt_2017
+
+- title: House
+  date: 2004
+  rt: https://www.rottentomatoes.com/tv/house
 
 "tv: sci-fi & fantasy":
 - title: Black Mirror
@@ -174,3 +219,10 @@
 - title: Wolf Like Me
   date: 2022
   rt: https://www.rottentomatoes.com/tv/wolf_like_me
+
+
+
+"tv: westerns":
+- title: Godless
+  date: 2017
+  rt: https://www.rottentomatoes.com/tv/godless
